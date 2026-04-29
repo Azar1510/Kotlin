@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText android:id="@+id/num1" android:hint="Enter number 1"/>
+    <EditText android:id="@+id/num2" android:hint="Enter number 2"/>
+
+    <Button android:id="@+id/addBtn" android:text="Add"/>
+    <Button android:id="@+id/subBtn" android:text="Subtract"/>
+    <Button android:id="@+id/mulBtn" android:text="Multiply"/>
+    <Button android:id="@+id/divBtn" android:text="Divide"/>
+
+    <TextView android:id="@+id/result" android:textSize="20sp"/>
+</LinearLayout>

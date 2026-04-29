@@ -1,0 +1,3 @@
+findViewById<Button>(R.id.login).setOnClickListener {
+    startActivity(Intent(this, HomeActivity::class.java))
+}
